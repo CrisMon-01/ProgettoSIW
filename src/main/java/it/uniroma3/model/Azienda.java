@@ -35,7 +35,6 @@ public class Azienda {
 	@OneToMany(mappedBy="azienda")	//ok
 	private Set<Responsabile> responsabili;
 	
-	@Column(nullable=false)
 	@OneToOne	//ok
 	private Responsabile direttore;
 	

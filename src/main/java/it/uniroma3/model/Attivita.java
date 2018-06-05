@@ -33,7 +33,7 @@ public class Attivita {
 	private Set<Utente> utenti;
 	
 	@ManyToOne	//ok
-	@Column(nullable=false)
+//	@Column(nullable=false)
 	private Centro centro;
 		
 	private Integer utentiattesi;
