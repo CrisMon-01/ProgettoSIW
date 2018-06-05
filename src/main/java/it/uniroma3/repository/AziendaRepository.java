@@ -6,4 +6,6 @@ import it.uniroma3.model.Azienda;
 
 public interface AziendaRepository extends CrudRepository<Azienda, Long> {
 
+	Azienda findById(Long id);
+	
 }

@@ -23,6 +23,9 @@ public class Utente {
 	
 	@Column(nullable=false)
 	private String cognome;
+	
+	@Column(nullable=false)
+	private String indirizzo;
 		
 	@Column(nullable=false)
 	@Temporal(TemporalType.DATE)
