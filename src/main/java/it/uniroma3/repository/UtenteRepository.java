@@ -10,8 +10,7 @@ import it.uniroma3.model.Utente;
 public interface UtenteRepository extends CrudRepository<Utente, Long>{
 
 	Optional<Utente> findById(Long id);
-	List<Utente> findByNome(String nome);
-	List<Utente> findByCognome(String cognome);
+	List<Utente> findByNomeAndCognome(String nome,String cognome);
 	List<Utente> findByEmail(String email);
 //	List<Utente> findByIndirizo(String indirizzo);
 }
